@@ -1,0 +1,30 @@
+
+Download hand_landmarker.task file, a pre-trained model, from drive:
+https://drive.google.com/drive/u/0/folders/122VqoqJtKSP_PT8BIkQWmtw3Dn5UCG7d
+
+or from this Google storage link
+
+https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task
+
+Place hand_landmarker.task at the root of the folders if it is not already in the root
+
+
+Commands:
+
+To collect the data run:
+python collect_data.py 
+
+Then to train the model run:
+python train_model.py (currently unavailable, use existing model below)
+
+
+or
+
+
+To use my existing trained model, download gesture_model.pkl from drive:
+https://drive.google.com/drive/u/0/folders/122VqoqJtKSP_PT8BIkQWmtw3Dn5UCG7d
+
+Place gesture_model.pkl at the root of the folders if it is not already in the root
+
+To test the model that was trained on live data:
+python live_predict.py
