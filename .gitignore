@@ -185,7 +185,6 @@ pyrightconfig.json
 
 
 # Other files
-README.md
 instructions.txt
 train_model.py
 src/

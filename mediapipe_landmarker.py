@@ -2,7 +2,7 @@ import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 
-class MeadiaPipeLandmarker:
+class MediaPipeLandmarker:
     def __init__(self, model_path: str, running_mode: str = "IMAGE", num_hands: int = 1):
         self.model_path = model_path
         self.running_mode = running_mode

@@ -9,11 +9,11 @@ import os
 from camera_capture import CameraCapture
 from key_manager import KeyBindingImpl, KeyManager
 from opencv_keyboard import OpenCVKeyBoardInput
-from mediapipe_landmarker import MeadiaPipeLandmarker
+from mediapipe_landmarker import MediaPipeLandmarker
 
 
 # 1. Setup MediaPipe Hand Landmarker passing in the path to the hand_landmarker.task file
-media_pipe_landmarker = MeadiaPipeLandmarker('hand_landmarker.task')
+media_pipe_landmarker = MediaPipeLandmarker('hand_landmarker.task')
 
 # 2. Setup CSV File for Data Collection
 csv_file_path = 'gesture_dataset_1.csv'
